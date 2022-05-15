@@ -1,0 +1,26 @@
+{
+  "name": "pokemon-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js",
+    "dev": "ts-node-dev index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^7.0.0",
+    "axios": "^0.27.2",
+    "fastify": "^3.29.0",
+    "ts-node-dev": "^1.1.8",
+    "types": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "tsconfig": "*",
+    "typescript": "^4.6.4"
+  }
+}
